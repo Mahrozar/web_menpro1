@@ -1,36 +1,57 @@
-<DOTYPE! HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
-		<audio controls autoplay hidden="hidden" loop>
-		<source src="../back.mp3" type="audio/mpeg" >
-		
-	</audio>
-		<title>BBM</title>
-		<link rel="stylesheet" type="text/css" href="../style.css" />
-	</head>
-	<body>
-		<div id="countainer" style="background-image:url(../backgroundtest.jpg);">
-			<!--ANIMASI AWAN-->
-				<div class="aw no1"><img src="../awan2.png" /></div>
-				<div class="aw no2"><img src="../awan2.png" /></div>
-				<div class="aw no3"><img src="../awan2.png" /></div>
-				<div class="aw no4"><img src="../awan2.png" /></div>
-				<div class="aw no5"><img src="../awan2.png" /></div>
-				<div class="aw no1"><img src="../awan2.png" /></div>
-				<div class="aw no2"><img src="../awan2.png" /></div>
-				<div class="aw no3"><img src="../awan2.png" /></div>
-				<div class="aw no4"><img src="../awan2.png" /></div>
-			
-			<div id="menu">
-				<div id="navigasi">
-					<ul>
-						<li><a href="level1.html">Tahap 1</a></li>
-						
-						<li><a href="../index1.html"><< KEMBALI</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+    <audio controls autoplay hidden="hidden" loop>
+      <source src="../back.mp3" type="audio/mpeg" />
+    </audio>
+    <title>Mari Belajar Bersama</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <style>
+      /* Tambahkan gaya untuk foto di tengah */
+      #photo-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px; /* Sesuaikan ukuran gambar */
+        height: auto;
+        border-radius: 15px; /* Efek rounded */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Efek bayangan */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="countainer" style="background-image: url(../backgroundtest.jpg)">
+      <!-- Tambahkan foto di tengah -->
+      <img
+        id="photo-center"
+        src="../test4.jpg"
+        alt="Gambar di tengah halaman"
+      />
+
+      <!--ANIMASI AWAN-->
+      <!-- <div class="aw no1"><img src="../awan2.png" /></div>
+      <div class="aw no2"><img src="../awan2.png" /></div>
+      <div class="aw no3"><img src="../awan2.png" /></div>
+      <div class="aw no4"><img src="../awan2.png" /></div>
+      <div class="aw no5"><img src="../awan2.png" /></div>
+      <div class="aw no1"><img src="../awan2.png" /></div>
+      <div class="aw no2"><img src="../awan2.png" /></div>
+      <div class="aw no3"><img src="../awan2.png" /></div>
+      <div class="aw no4"><img src="../awan2.png" /></div> -->
+
+      <div id="menu">
+        <div id="navigasi">
+          <ul>
+            <li><a href="level1.html">Tahap 1</a></li>
+            <li><a href="../index1.html"><< KEMBALI</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
