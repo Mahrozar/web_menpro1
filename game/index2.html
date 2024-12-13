@@ -12,15 +12,6 @@
 </head>
 
 <body>
-    <!-- Pop-up edukatif -->
-    <div id="overlay"></div>
-    <div id="popup">
-        <h2>Selamat Datang!</h2>
-        <p>Kamu akan belajar sambil bermain tentang bangun ruang dan bangun datar.</p>
-        <p>Siap untuk mulai?</p>
-        <button onclick="closePopup()">Tutup</button>
-    </div>
-
     <div id="container">
         <header>
             <h1>Selamat Datang di Dunia Bangun Ruang dan Bangun Datar!</h1>
@@ -42,20 +33,6 @@
             </div>
         </footer>
     </div>
-
-    <script>
-        // Fungsi untuk menutup pop-up
-        function closePopup() {
-            document.getElementById('popup').style.display = 'none';
-            document.getElementById('overlay').style.display = 'none';
-        }
-
-        // Tampilkan pop-up saat halaman dimuat
-        window.onload = function () {
-            document.getElementById('popup').style.display = 'block';
-            document.getElementById('overlay').style.display = 'block';
-        };
-    </script>
 </body>
 
 </html>

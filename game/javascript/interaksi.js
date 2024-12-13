@@ -10,25 +10,25 @@ function tampilkanBangun(bangun) {
             judul = 'Kubus';
             deskripsi = 'Kubus adalah bangun ruang yang memiliki 6 sisi yang bentuknya sama, yaitu persegi!';
             gambarBangun = 'bangun ruang/kubusfiks.png';
-            gambarRepresentasi = 'gambar/rubik.jpg'; // Rubik sebagai representasi
+            gambarRepresentasi = 'bangun ruang/rubikfiks.png'; // Rubik sebagai representasi
             break;
         case 'balok':
             judul = 'Balok';
             deskripsi = 'Balok memiliki sisi berbentuk persegi panjang. Seperti kotak sepatu!';
             gambarBangun = 'bangun ruang/balokfiks.png';
-            gambarRepresentasi = 'gambar/kotaksepatu.jpg'; // Kotak sepatu sebagai representasi
+            gambarRepresentasi = 'bangun ruang/kotakfiks.png'; // Kotak sepatu sebagai representasi
             break;
         case 'tabung':
             judul = 'Tabung';
             deskripsi = 'Tabung memiliki bentuk yang seperti kaleng minuman, dengan sisi melengkung!';
             gambarBangun = 'bangun ruang/tabungfiks.png';
-            gambarRepresentasi = 'gambar/kaleng.jpg'; // Kaleng sebagai representasi
+            gambarRepresentasi = 'bangun ruang/kalengfiks.png'; // Kaleng sebagai representasi
             break;
         case 'kerucut':
             judul = 'Kerucut';
             deskripsi = 'Kerucut seperti topi tidur! Ada alas bulat dan puncaknya lancip!';
             gambarBangun = 'bangun ruang/kerucutfiks.png';
-            gambarRepresentasi = 'gambar/topitidur.jpg'; // Topi tidur sebagai representasi
+            gambarRepresentasi = 'bangun ruang/topifiks.png'; // Topi tidur sebagai representasi
             break;
         default:
             break;
